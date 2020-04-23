@@ -1,0 +1,11 @@
+[package]
+name = "popcap_framework"
+version = "0.0.1"
+authors = [ "adumbidiot <nathaniel.daniel23@outlook.com>" ]
+edition = "2018"
+
+[dependencies]
+popcap_framework-sys = { path = "popcap_framework-sys" }
+
+[workspace]
+members = [ "popcap_framework-sys" ]
