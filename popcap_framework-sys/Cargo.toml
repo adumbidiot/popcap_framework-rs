@@ -7,5 +7,5 @@ edition = "2018"
 [dependencies]
 
 [build-dependencies]
-bindgen = "0.56.0"
+bindgen = "0.58.1"
 cc = "1.0.50"
